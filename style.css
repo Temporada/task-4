@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav_header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav_header{
+    display: flex;
+    background-color: yellow;
+}
+.brand_name{
+    flex: 70%;
+}
+.brand_name h1{
+    margin-left: 30%;
+    margin-top: 2px;
+}
+.menu{
+    flex: 70%
+}
+.menu ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin-top: 2px;
+}
+.menu li{
+    flex:6px;
+}
+.menu a{
+    font-size: 2rem;
+    margin-top: 9px;
+    text-decoration: none;
+    color: black;
+}
+.first_content{
+    height: 100vh;
+    display: flex;
+}
+.second_name{
+    flex: 50%;
+
+}
+.second_name img{
+    display:flex;
+    float: left;
+    width: 110%;
+    height: 70%;
+    margin-top: 30%;
+}
+.second_content{
+    justify-content: center;
+    margin-top: 15%;
+}
+.second_content h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.content{
+    height: 100vh;
+}
+.third_name{
+    float: right;
+    padding-top: 20px;   
+}
+
+.special_skills{
+    display: flex;
+    justify-content: center;
+    padding: 210px 0 0 140px;
+}
+table{
+    width: 100%;
+    height: 100px;
+}
+table td{
+    font-size: 2rem;
+}
+.contact{
+    
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(b63615797e3e614a51e74a681d7945f6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.information{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    right:100p;
+
+}
+.information ul{
+    list-style: none;
+    margin-left: 15%;
+    justify-content: center;
+}
+.information li{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.information p{
+    margin-left: 15px;
+}
+
+.form_1{
+    width: 40%;
+    margin-left: 21%;
+    background-color: bisque;
+    padding: 40px;
+}
+.form_1 .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top:10px;
+    
+}
+.form_1 .inputbox input
+.form_1 .inputbox input textarea
+{
+    width: 110%;
+    padding: 3px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid sandybrown;
+    outline: none;
+    resize: none;
+}
+.form_1 .inputbox input span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+
+}
+#footer_down {
+    width: 100%;
+    height: 15%;
+    background-color:#05445E;
+    color: white;
+    flex: 30%
+}
+.icon{
+    flex: 10%;
+}
+.icon ul{
+    display: flex;
+    list-style: none;
+    margin-left:70%;
+}
+.icon img{
+    width: 50px;
+    min-height: 50px;
+    padding: 5px;
+    object-fit:fill;
+}
